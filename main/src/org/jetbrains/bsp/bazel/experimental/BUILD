@@ -1,10 +1,10 @@
-java_library(
-    name = "bsp",
+java_binary(
+    name = "experimental",
     srcs = glob(["*.java"]),
-    resources = ["aspects.bzl"],
-    tags = ["maven_coordinates=org.jetbrains.bsp:bazel-bsp:{pom_version}"],
+    main_class = "org.jetbrains.bsp.bazel.experimental.Main",
     visibility = ["//visibility:public"],
     deps = [
+        "//main/src/org/jetbrains/bsp/bazel/common",
         "@com_google_protobuf//:protobuf_java",
         "@googleapis//:google_devtools_build_v1_build_events_java_proto",
         "@googleapis//:google_devtools_build_v1_publish_build_event_java_grpc",

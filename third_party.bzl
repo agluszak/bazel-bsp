@@ -21,6 +21,7 @@ _deps = [
     _dependency("ch.epfl.scala:bsp-testkit_2.13:2.0.0-M12+25-e4df1538-SNAPSHOT"),
     _dependency("org.eclipse.lsp4j:org.eclipse.lsp4j.jsonrpc:0.8.0"),
     _dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.19.0"),
+    _dependency("commons-cli:commons-cli:jar:1.4"),
 ]
 
 def dependencies():
