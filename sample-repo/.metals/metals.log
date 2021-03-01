@@ -1,0 +1,521 @@
+2021.01.02 20:05:46 INFO  Started: Metals version 0.9.8 in workspace '/home/agluszak/code/licencjat/bazel-bsp/sample-repo' for client vscode.
+2021.01.02 20:05:47 INFO  time: initialize in 0.72s
+2021.01.02 20:05:48 INFO  Attempting to connect to the build server...
+2021.01.02 20:05:48 INFO  tracing is enabled: /home/agluszak/.cache/metals/bsp.trace.json
+2021.01.02 20:06:01 INFO  time: connected to build server in 13s
+2021.01.02 20:06:01 INFO  Connected to Build server v0.0.0
+2021.01.02 20:06:02 WARN  no build target for: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala
+2021.01.02 20:06:39 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:06:39 INFO  Analyzing: 3 targets (0 packages loaded)
+2021.01.02 20:06:39 INFO  
+2021.01.02 20:06:39 INFO  
+2021.01.02 20:06:39 INFO  
+2021.01.02 20:06:39 INFO  Analyzing: 3 targets (0 packages loaded, 0 targets configured)
+Analyzing: 3 targets (0 packages loaded, 0 targets configured)
+INFO: Analyzed 3 targets (1 packages loaded, 2 targets configured).
+INFO: Found 3 targets...
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  [1 / 2] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:06:40 INFO  
+2021.01.02 20:06:40 INFO  INFO: Elapsed time: 17.186s, Critical Path: 0.10s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:06:57 INFO  no build target: using presentation compiler with only scala-library
+2021.01.02 20:06:57 WARN  code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because it doesn't belong to a build target.
+2021.01.02 20:06:57 WARN  code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because it doesn't belong to a build target.
+Jan 02, 2021 8:06:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2021.01.02 20:14:03 INFO  time: imported build in 8m1s
+2021.01.02 20:14:10 INFO  time: indexed workspace in 6.96s
+2021.01.02 20:14:12 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:14:12 INFO  
+2021.01.02 20:14:12 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 2] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:14:12 INFO  
+2021.01.02 20:14:12 INFO  
+2021.01.02 20:14:14 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/JavaTest.java:5: error: `;' expected but eof found.
+}
+ ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 1.375s, Critical Path: 0.76s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:17:59 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:17:59 INFO  
+2021.01.02 20:17:59 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 5] [Prepa] scala //dep:dep
+2021.01.02 20:17:59 INFO  
+2021.01.02 20:17:59 INFO  
+2021.01.02 20:17:59 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/JavaTest.java:5: error: `;' expected but eof found.
+}
+ ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.351s, Critical Path: 0.12s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:18:10 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:18:10 INFO  
+2021.01.02 20:18:10 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 3] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:18:10 INFO  
+2021.01.02 20:18:13 INFO  [1 / 4] scala //dep:dep; 1s worker
+2021.01.02 20:18:13 INFO  [2 / 4] [Prepa] Extracting interface for jar dep.jar
+2021.01.02 20:18:13 INFO  
+2021.01.02 20:18:13 INFO  
+2021.01.02 20:18:13 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 4.108s, Critical Path: 3.74s
+INFO: 3 processes: 1 linux-sandbox, 2 worker.
+INFO: Build completed successfully, 4 total actions
+2021.01.02 20:18:13 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:18:13 INFO  
+2021.01.02 20:18:13 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:18:13 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:18:13 INFO  
+2021.01.02 20:18:13 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 0.207s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:18:54 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:18:54 INFO  
+2021.01.02 20:18:54 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 3] [Prepa] Compiling Java headers dep/dep_java-hjar.jar (1 source file)
+2021.01.02 20:18:54 INFO  
+2021.01.02 20:18:56 INFO  
+2021.01.02 20:18:56 INFO  
+2021.01.02 20:18:56 INFO  Target //example:example up-to-date:
+  bazel-bin/example/example.jar
+  bazel-bin/example/example
+INFO: Elapsed time: 1.966s, Critical Path: 1.81s
+INFO: 1 process: 1 linux-sandbox.
+INFO: Build completed successfully, 2 total actions
+2021.01.02 20:19:08 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:08 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:10 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:10 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:10 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:12 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:12 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:13 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:13 INFO  
+2021.01.02 20:19:13 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:13 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:13 INFO  
+2021.01.02 20:19:13 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 0.263s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:19:13 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:13 INFO  
+2021.01.02 20:19:13 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:13 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:13 INFO  
+2021.01.02 20:19:13 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 0.162s, Critical Path: 0.02s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:19:18 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:18 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:21 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:21 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:31 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:31 ERROR code navigation does not work for the file '/home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/Dep.scala' because the SemanticDB compiler plugin is not enabled for the build target //dep:dep.
+2021.01.02 20:19:33 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:33 INFO  
+2021.01.02 20:19:33 INFO  Analyzing: target //dep/deeper:deeper (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep/deeper:deeper (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:33 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:33 INFO  
+2021.01.02 20:19:33 INFO  Target //dep/deeper:deeper up-to-date:
+  bazel-bin/dep/deeper/deeper.jar
+INFO: Elapsed time: 0.654s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:19:34 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:34 INFO  
+2021.01.02 20:19:34 INFO  Analyzing: target //dep/deeper:deeper (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep/deeper:deeper (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:34 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:34 INFO  
+2021.01.02 20:19:34 INFO  Target //dep/deeper:deeper up-to-date:
+  bazel-bin/dep/deeper/deeper.jar
+INFO: Elapsed time: 0.744s, Critical Path: 0.02s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:19:35 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:35 INFO  
+2021.01.02 20:19:35 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:35 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:35 INFO  
+2021.01.02 20:19:35 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 0.360s, Critical Path: 0.04s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:19:55 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:55 INFO  
+2021.01.02 20:19:55 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:55 INFO  
+2021.01.02 20:19:57 INFO  [1 / 4] scala //dep:dep; 1s worker
+2021.01.02 20:19:57 INFO  
+2021.01.02 20:19:57 INFO  
+2021.01.02 20:19:57 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 2.578s, Critical Path: 2.39s
+INFO: 2 processes: 2 worker.
+INFO: Build completed successfully, 3 total actions
+2021.01.02 20:19:59 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:19:59 INFO  
+2021.01.02 20:19:59 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:19:59 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:19:59 INFO  
+2021.01.02 20:19:59 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 0.191s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:20:12 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:20:12 INFO  
+2021.01.02 20:20:12 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 3] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:20:12 INFO  
+2021.01.02 20:20:13 INFO  
+2021.01.02 20:20:13 INFO  [2 / 3] [Prepa] scala //example:example
+2021.01.02 20:20:13 INFO  
+2021.01.02 20:20:13 INFO  Target //example:example up-to-date:
+  bazel-bin/example/example.jar
+  bazel-bin/example/example
+INFO: Elapsed time: 2.300s, Critical Path: 2.09s
+INFO: 2 processes: 1 linux-sandbox, 1 worker.
+INFO: Build completed successfully, 3 total actions
+2021.01.02 20:20:39 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:20:39 INFO  
+2021.01.02 20:20:39 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:20:39 INFO  
+2021.01.02 20:20:39 INFO  
+2021.01.02 20:20:39 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value2 is not a member of object dep.JavaTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, JavaTest.value2)
+                                                                            ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //dep:dep failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.381s, Critical Path: 0.21s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:20:43 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:20:43 INFO  
+2021.01.02 20:20:43 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 6] [Prepa] scala //dep:dep
+2021.01.02 20:20:43 INFO  
+2021.01.02 20:20:43 INFO  
+2021.01.02 20:20:43 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value2 is not a member of object dep.JavaTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, JavaTest.value2)
+                                                                            ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.299s, Critical Path: 0.10s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:21:02 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:02 INFO  
+2021.01.02 20:21:02 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 6] [Prepa] BazelWorkspaceStatusAction stable-status.txt ... (2 actions, 0 running)
+2021.01.02 20:21:02 INFO  
+2021.01.02 20:21:02 INFO  
+2021.01.02 20:21:02 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value2 is not a member of object dep.JavaTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, JavaTest.value2)
+                                                                            ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.276s, Critical Path: 0.14s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:21:16 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:16 INFO  
+2021.01.02 20:21:16 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 6] [Prepa] BazelWorkspaceStatusAction stable-status.txt ... (2 actions, 1 running)
+2021.01.02 20:21:16 INFO  
+2021.01.02 20:21:16 INFO  
+2021.01.02 20:21:16 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value2 is not a member of object dep.JavaTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, JavaTest.value2)
+                                                                            ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.257s, Critical Path: 0.12s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:21:43 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:43 INFO  
+2021.01.02 20:21:43 INFO  Analyzing: target //dep/deeper:deeper (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep/deeper:deeper (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:21:43 INFO  
+2021.01.02 20:21:44 INFO  
+2021.01.02 20:21:44 INFO  
+2021.01.02 20:21:44 INFO  Target //dep/deeper:deeper up-to-date:
+  bazel-bin/dep/deeper/deeper.jar
+INFO: Elapsed time: 1.223s, Critical Path: 0.95s
+INFO: 1 process: 1 worker.
+INFO: Build completed successfully, 2 total actions
+2021.01.02 20:21:44 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:44 INFO  
+2021.01.02 20:21:45 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:21:45 INFO  
+2021.01.02 20:21:45 INFO  [0 / 5] [Prepa] Extracting interface for jar deeper.jar
+2021.01.02 20:21:46 INFO  
+2021.01.02 20:21:46 INFO  [4 / 5] [Prepa] Building dep/dep_java.jar (1 source file)
+2021.01.02 20:21:46 INFO  
+2021.01.02 20:21:46 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 2.390s, Critical Path: 1.92s
+INFO: 3 processes: 1 linux-sandbox, 2 worker.
+INFO: Build completed successfully, 4 total actions
+2021.01.02 20:21:55 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:55 INFO  
+2021.01.02 20:21:55 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 4] [Prepa] scala //dep:dep
+2021.01.02 20:21:55 INFO  
+2021.01.02 20:21:55 INFO  
+2021.01.02 20:21:56 INFO  
+2021.01.02 20:21:56 INFO  
+2021.01.02 20:21:56 INFO  Target //dep:dep up-to-date:
+  bazel-bin/dep/dep.jar
+  bazel-bin/dep/dep_java.jar
+INFO: Elapsed time: 1.213s, Critical Path: 1.04s
+INFO: 2 processes: 1 linux-sandbox, 1 worker.
+INFO: Build completed successfully, 3 total actions
+2021.01.02 20:21:57 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:21:57 INFO  
+2021.01.02 20:21:57 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 4] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:21:57 INFO  
+2021.01.02 20:21:59 INFO  
+2021.01.02 20:21:59 INFO  
+2021.01.02 20:21:59 INFO  Target //example:example up-to-date:
+  bazel-bin/example/example.jar
+  bazel-bin/example/example
+INFO: Elapsed time: 2.144s, Critical Path: 1.69s
+INFO: 1 process: 1 linux-sandbox.
+INFO: Build completed successfully, 2 total actions
+2021.01.02 20:22:07 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:22:07 INFO  
+2021.01.02 20:22:07 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:22:07 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:22:07 INFO  
+2021.01.02 20:22:07 INFO  Target //example:example up-to-date:
+  bazel-bin/example/example.jar
+  bazel-bin/example/example
+INFO: Elapsed time: 0.188s, Critical Path: 0.02s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:22:14 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:22:14 INFO  
+2021.01.02 20:22:14 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+2021.01.02 20:22:14 INFO  [0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:22:14 INFO  
+2021.01.02 20:22:14 INFO  Target //example:example up-to-date:
+  bazel-bin/example/example.jar
+  bazel-bin/example/example
+INFO: Elapsed time: 0.224s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+2021.01.02 20:22:17 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:22:17 INFO  
+2021.01.02 20:22:17 INFO  Analyzing: target //dep:dep (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //dep:dep (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 4] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+2021.01.02 20:22:17 INFO  
+2021.01.02 20:22:17 INFO  
+2021.01.02 20:22:17 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value3 is not a member of object dep.deeper.DeeperTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, DeeperTest.value3)
+                                                                              ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //dep:dep failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.448s, Critical Path: 0.21s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:22:17 INFO  Loading: 
+Loading: 0 packages loaded
+2021.01.02 20:22:17 INFO  
+2021.01.02 20:22:18 INFO  Analyzing: target //example:example (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //example:example (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 6] [Prepa] scala //dep:dep
+2021.01.02 20:22:18 INFO  
+2021.01.02 20:22:18 INFO  
+2021.01.02 20:22:18 INFO  ERROR: /home/agluszak/code/licencjat/bazel-bsp/sample-repo/dep/BUILD:3:1: scala //dep:dep failed (Exit 1)
+dep/Dep.scala:6: error: value value3 is not a member of object dep.deeper.DeeperTest
+  val list = List(Test.test() + JavaTest.value + DeeperTest.value, DeeperTest.value3)
+                                                                              ^
+one error found
+one error found
+Build failed
+java.lang.RuntimeException: Build failed
+	at io.bazel.rulesscala.scalac.ScalacWorker.compileScalaSources(ScalacWorker.java:255)
+	at io.bazel.rulesscala.scalac.ScalacWorker.work(ScalacWorker.java:70)
+	at io.bazel.rulesscala.worker.Worker.persistentWorkerMain(Worker.java:92)
+	at io.bazel.rulesscala.worker.Worker.workerMain(Worker.java:46)
+	at io.bazel.rulesscala.scalac.ScalacWorker.main(ScalacWorker.java:37)
+Target //example:example failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 0.489s, Critical Path: 0.18s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully
+2021.01.02 20:56:25 INFO  shutting down Metals
